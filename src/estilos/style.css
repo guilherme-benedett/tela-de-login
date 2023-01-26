@@ -33,10 +33,10 @@ section{
     background-color: white;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 10px;
 }
 h1{
     text-align: center;
-    margin-top: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -45,5 +45,28 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: normal;
     font-size: 13px;
-    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+.esqueci-senha{
+    border: 1px solid #008000;
+    cursor: pointer;
+}
+.esqueci-senha:hover{
+    background-color: #0080007e;
+}
+.entrar{
+    background-color: #063a06;
+    color: #ffffff;
+    cursor: pointer;
+}
+.entrar:hover{
+    background-color: #062006;
 }
