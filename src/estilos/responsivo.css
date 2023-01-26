@@ -1,18 +1,39 @@
 @media screen  and (min-width:481px) and (max-width:768px){
-    main{
-        display: flex;
-        flex-direction: row;
+    body{
+        background-image: linear-gradient(to bottom, #8a2be2, rgba(5, 182, 5, 0.7));
     }
     section{
-        height: 300px;
-        
+        width: 80vw;
+        height: 40vh;
+    }
+    .imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    .informacoes{
+        float: right;
+        width: 70%;
     }
 }
-@media screen  and (min-width:769px) and (max-width: 1200px){
-    main{
-        display: flex;
-        flex-direction: row;
+@media screen  and (min-width:769px){
+    body{
+        background-image: linear-gradient(to bottom, #8a2be2, rgba(5, 182, 5, 0.7));
     }
-
+    section{
+        width: 80vw;
+        height: 50vh;
+    }
+    .imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    .informacoes{
+        float: left;
+        width: 50%;
+    }
+    .informacoes > p , h1{
+        font-size: 20px;
+    }
 }
-    
