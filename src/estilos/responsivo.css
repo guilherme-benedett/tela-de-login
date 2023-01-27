@@ -3,17 +3,13 @@
         background-image: linear-gradient(to bottom, #8a2be2, rgba(5, 182, 5, 0.7));
     }
     section{
+        display: flex;
         width: 80vw;
         height: 40vh;
     }
     .imagem{
-        float: left;
-        width: 30%;
+        width: 50vw;
         height: 100%;
-    }
-    .informacoes{
-        float: right;
-        width: 70%;
     }
 }
 @media screen  and (min-width:769px){
@@ -21,16 +17,16 @@
         background-image: linear-gradient(to bottom, #8a2be2, rgba(5, 182, 5, 0.7));
     }
     section{
+        display: flex;
         width: 80vw;
         height: 50vh;
+        flex-direction: row-reverse;
     }
     .imagem{
-        float: right;
-        width: 50%;
+        width: 50vw;
         height: 100%;
     }
     .informacoes{
-        float: left;
         width: 50%;
     }
     .informacoes > p , h1{
