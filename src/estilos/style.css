@@ -44,12 +44,19 @@ section{
     text-align: justify;
     font-size: 13px;
 }
+form{
+    margin-top: 10px;
+}
 input{
     padding: 5px;
     border-radius: 5px;
 }
 label{
     display: none;
+}
+span{
+    color: white;
+    padding: 5px;
 }
 .input{
     display: flex;
@@ -68,4 +75,16 @@ input{
 }
 .entrar{
     margin-bottom: 5px;
+}
+.entrar:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.esqueci-senha:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }

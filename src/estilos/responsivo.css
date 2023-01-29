@@ -18,12 +18,12 @@
     }
     section{
         display: flex;
-        width: 80vw;
+        width: 600px;
         height: 50vh;
         flex-direction: row-reverse;
     }
     .imagem{
-        width: 50vw;
+        width: 50%;
         height: 100%;
     }
     .informacoes{
